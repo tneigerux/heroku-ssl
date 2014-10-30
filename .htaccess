@@ -1,5 +1,5 @@
     # you might need this
     RewriteEngine On
 
-    RewriteCond %{HTTP:x-forwarded-proto} !='https'
+    RewriteCond %{HTTP:x-forwarded-proto} !https
     RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
