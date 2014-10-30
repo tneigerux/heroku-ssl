@@ -1,2 +1,1 @@
-Please see:
-https://digitalpulp.atlassian.net/browse/DP-180
+The key lines are in the .htaccess
